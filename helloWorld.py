@@ -1,2 +1,2 @@
 print("Hello World!!!")
-print("Hello Wolrd!!! - From STV Local Laptop")
+print("Hello World!!! - From STV Local Laptop")

@@ -19,7 +19,7 @@ print(msg)
 # to add newline to text use \n 
 print("Languages:\n\tPython\n\tC\n\tJavascript")
 
-# stripping whitespace, right and left
+# stripping whitespace, right, left, and both sides
 fav_language = "python  "
 print(fav_language)
 fav_language = fav_language.rstrip()
@@ -28,4 +28,9 @@ print(fav_language)
 fav_language = "  python"
 print(fav_language)
 fav_language = fav_language.lstrip()
+print(fav_language)
+
+fav_language = "  python  "
+print(fav_language)
+fav_language = fav_language.strip()
 print(fav_language)
